@@ -7,17 +7,16 @@
 </template>
 
 <script>
-  // @ is an alias to /src
-  import HelloWorld from '@/components/HelloWorld.vue';
-  import ShowMessageVue from '@/components/ShowMessage.vue';
+// @ is an alias to /src
+// import HelloWorld from '@/components/HelloWorld.vue';
+import ShowMessageVue from '@/components/ShowMessage.vue';
 
-  export default {
-    name: 'HomeView',
-    components: {
-      //HelloWorld,
-      ShowMessageVue
+export default {
+  name: 'HomeView',
+  components: {
+    // HelloWorld,
+    ShowMessageVue,
   },
-  };
+};
 
 </script>
-
